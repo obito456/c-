@@ -5,6 +5,7 @@ int swap(int a,int b){    //void or int
     int temp=a;
     a=b;
     b=temp;
+    cout<<a<<" "<<b<<endl;
 }
 
 int main() {
