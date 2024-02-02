@@ -13,7 +13,10 @@ int main() {
     }
     
     for(int i=0; i<s.size(); i++){
-        freq[s[i]-'a']++;
+        freq[s[i]-'a']++;                                     //'a': Represents the ASCII value of the lowercase letter 'a'
+    freq[s[i] - 'a']++;
+}
+
     }
     
     char ans='a';
