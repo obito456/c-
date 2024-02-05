@@ -14,10 +14,10 @@ long long merge(int arr[], int l, int mid, int r) {
     }
 
     for (int i = 0; i < n2; i++) {
-        b[i] = arr[mid + 1 + i];  // Corrected index here
+        b[i] = arr[mid + 1 + i];
     }
 
-    int i = 0, j = 0, k = l;  // Corrected index here
+    int i = 0, j = 0, k = l;
 
     while (i < n1 && j < n2) {
         if (a[i] <= b[j]) {
@@ -50,7 +50,7 @@ long long merge(int arr[], int l, int mid, int r) {
 long long mergesort(int arr[], int l, int r) {
     long long inv = 0;
     if (l < r) {
-        int mid = l + (r - l) / 2;  // Corrected mid calculation
+        int mid = l + (r - l) / 2;
         inv += mergesort(arr, l, mid);
         inv += mergesort(arr, mid + 1, r);
         inv += merge(arr, l, mid, r);
