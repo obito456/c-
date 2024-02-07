@@ -81,6 +81,7 @@ int main() {
     captain ca = captain("MSD", "wk-batsman", 30, "RBK");
     coach ch = coach("flemming", "head", 40, "csk");
     ch.prepareplayers();
+    ch.chance();
 
     return 0;
 }
