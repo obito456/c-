@@ -59,7 +59,7 @@ void display(node* head) {
     do {
         cout << temp->data << " ";
         temp = temp->next;
-    } while (temp != head);
+    } while (temp != head);  //NULL
     cout << endl;
 }
 
