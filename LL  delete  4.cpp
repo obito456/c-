@@ -59,7 +59,7 @@ void deletion(node* &head, int val) {
     if (head != NULL && head->data == val) {
         node* todelete = head;
         head = head->next;
-        delete todelete;
+        delete todelete;                               //free()
         return;
     }
 
