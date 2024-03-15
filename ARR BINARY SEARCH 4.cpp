@@ -1,5 +1,4 @@
 #include <iostream>
-#include <climits>
 using namespace std;
 
 int binsch(int arr[], int n,int key){
